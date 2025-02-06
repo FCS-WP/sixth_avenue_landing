@@ -44,13 +44,6 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
             ?>
         </div>
 		<p class="stock out-of-stock"><?php echo esc_html( apply_filters( 'woocommerce_out_of_stock_message', __( 'For more details about product prices, please click the ENQUIRE below.', 'woocommerce' ) ) ); ?></p>
-        <div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="https://api.whatsapp.com/send/?phone=88959366&amp;text&amp;type=phone_number&amp;app_absent=0">
-				<span class="elementor-button-content-wrapper">
-					<span class="elementor-button-text">Enquire</span>
-			    </span>
-			</a>
-		</div>
 	<?php else : ?>
 		<table class="variations" cellspacing="0" role="presentation">
 			<tbody>
