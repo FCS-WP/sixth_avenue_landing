@@ -45,6 +45,25 @@
     animation: animation_move 5s infinite;
 }
 
+.variation_no_price{
+    margin-bottom: 10px;
+    .title_variation{
+        font-weight: bolder;
+    }
+    .list_variation{
+        padding-left: 0px;
+        list-style: none;
+        display: flex;
+        li{
+            padding: 2px 13px;
+            border: 1px solid #CCC;
+            border-radius: 3px;
+            margin-right: 5px;
+            cursor: not-allowed;
+            text-transform: capitalize;
+        }
+    }
+}
 
 @keyframes animation_move {
     0%   {transform: translateY(0px);}
